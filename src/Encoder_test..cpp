@@ -29,6 +29,6 @@ void loop() {
         M5Dial.Encoder.readAndReset();
     }
     if (M5Dial.BtnA.pressedFor(5000)) {
-        M5Dial.Encoder.write(100);
+        M5Dial.Encoder.write(400);
     }
 }

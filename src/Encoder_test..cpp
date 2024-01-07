@@ -9,6 +9,7 @@ void setup() {
     M5Dial.Display.setTextDatum(middle_center);
     M5Dial.Display.setTextFont(&fonts::Orbitron_Light_32);   
     M5Dial.Display.setTextSize(2);
+    Serial.begin(115200);
 }
 
 long oldPosition = -999;
